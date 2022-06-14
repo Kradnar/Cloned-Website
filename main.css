@@ -7,6 +7,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     box-sizing: border-box;
+    height: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,9 +28,37 @@
 
 /* Class Setups */
 
+.divbox1{
+    border-color: red;
+    border-width: 5px;
+    border-style: dotted;
+}
 
+.divbox2{
+    border-color: blue;
+    border-width: 5px;
+    border-style: dotted;
+}
 
-a:visited {
+.divbox3{
+    border-color: orange;
+    border-width: 5px;
+    border-style: dotted;
+}
+
+.divbox4{
+    border-color: purple;
+    border-width: 5px;
+    border-style: dotted;
+}
+
+.divbox5{
+    border-color: green;
+    border-width: 5px;
+    border-style: dotted;
+}
+
+.stayWhiteLink:visited {
     color:white;
     background-color: transparent;
     text-decoration: none;

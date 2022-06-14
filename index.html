@@ -10,40 +10,43 @@
 <body>
     <div id="topBar">  <!-- Top Nav Bar -->
         <div id="govUK">
-            <a href="https://www.gov.uk/" title="Go to the GOV.UK homepage" id="" class="">
+            <a style="text-decoration:none;" href="https://www.gov.uk/" title="Go to the GOV.UK homepage" id="" class="stayWhiteLink">
             <img src="./images/govukLogoCrown.png" width="35" height="31" alt="GovUK logo">
             GOV.UK
             </a>
         </div>
         <div id="UCLink">
-            <a href="https://www.universal-credit.service.gov.uk/" title="Universal Credit" id="" class="">
+            <a style="text-decoration:none;" href="https://www.universal-credit.service.gov.uk/" title="Universal Credit" id="" class="stayWhiteLink">
             Universal Credit
             </a>
         </div>
+        <div>
+            <p>Invisible place holder</p>
+        </div>
     </div>
-    <div>BETA This is a new service - your feedback will help improve it.</div>
-    <div>
+    <div class="divbox1">BETA This is a new service - your feedback will help improve it.</div>
+    <div class="divbox2">
         <h1>Sign into your Universal Credit Account</h1>
         <p>You will have created an account when you made your claim.</p>
 
     </div>
-    <div> <!--! Form -->
+    <div class="divbox3"> <!--! Form -->
         <form action="/action_page.php">
             <label for="uname">Username:</label><br>
             <input type="text" id="uname" name="uname" value=""><br>
-            Forgotten Username<br>
+            <a href="https://www.universal-credit.service.gov.uk/account/forgot-username?linkName=oldLink">Forgotten Username</a><br>
             <br>
             <label for="pass">Password:</label><br>
             <input type="text" id="pass" name="pass" value=""><br>
-            Forgotten Password<br>
+            <a href="https://www.universal-credit.service.gov.uk/sign-in/password-reset?linkName=oldLink">Forgotten Password</a><br>
             <br>
             <input type="submit" value="Submit">
         </form> 
     </div>
-    <div>
+    <div class="divbox4">
         <h2>If you have never claimed Universal Credit</h2><br>
         <br>
-        <p>You may be able to use the Universal Credit Online service to:</p><br>
+        <p>You may be able to use the <a href="https://www.universal-credit.service.gov.uk/start">Universal Credit Online service</a> to:</p><br>
         <br>
         <ul>
             <li>create a Universal Credit account</li>
@@ -59,7 +62,10 @@
         <br>
         <p>You will need to use the username and password you created when you set up your Universal Credit account.</p>
         <br>
-        <p>If you have forgotten your sign in details we can send a reminder to your registered email address. Contact us if you do not have access to this address</p>
+        <p>If you have forgotten your sign in details we can send a reminder to your registered email address. <a href="https://www.universal-credit.service.gov.uk/contact">Contact us</a> if you do not have access to this address</p>
+    </div>
+    <div class="divbox5">
+        Footer Section
     </div>
 </body>
 </html>
