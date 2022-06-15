@@ -10,13 +10,13 @@
 <body>
     <div id="topBar">  <!-- Top Nav Bar -->
         <div id="govUK">
-            <a style="text-decoration:none;" href="https://www.gov.uk/" title="Go to the GOV.UK homepage" id="" class="stayWhiteLink">
+            <a style="text-decoration:none;" href="https://www.gov.uk/" title="Go to the GOV.UK homepage" class="stayWhiteLink">
             <img src="./images/govukLogoCrown.png" width="35" height="31" alt="GovUK logo">
             GOV.UK
             </a>
         </div>
         <div id="UCLink">
-            <a style="text-decoration:none;" href="https://www.universal-credit.service.gov.uk/" title="Universal Credit" id="" class="stayWhiteLink">
+            <a style="text-decoration:none;" href="https://www.universal-credit.service.gov.uk/" title="Universal Credit" class="stayWhiteLink">
             Universal Credit
             </a>
         </div>
@@ -24,30 +24,47 @@
             <p>Invisible place holder</p>
         </div>
     </div>
-    <div class="divbox1">BETA This is a new service - your feedback will help improve it.</div>
-    <div class="divbox2">
+
+
+    
+    <div class="blueBar">
+        <br>
+    </div>
+
+
+
+
+        
+        <div class="betaBox">
+            <p><strong class="betaHighlight"> BETA </strong> This is a new service - your feedback will help improve it.</p>
+            <hr>
+        </div>
+    <div class="signIn">
         <h1>Sign into your Universal Credit Account</h1>
+        <br>
         <p>You will have created an account when you made your claim.</p>
 
     </div>
-    <div class="divbox3"> <!--! Form -->
+    <div class="formBox"> <!--! Form -->
         <form action="/action_page.php">
-            <label for="uname">Username:</label><br>
-            <input type="text" id="uname" name="uname" value=""><br>
-            <a href="https://www.universal-credit.service.gov.uk/account/forgot-username?linkName=oldLink">Forgotten Username</a><br>
+            <label for="uname"><b>Username</b></label><br>
+            <input type="text" id="uname" name="uname" size="50" value=""><br>
+            <a href="https://www.universal-credit.service.gov.uk/account/forgot-username?linkName=oldLink"><small>Forgotten Username</small></a><br>
             <br>
-            <label for="pass">Password:</label><br>
-            <input type="text" id="pass" name="pass" value=""><br>
-            <a href="https://www.universal-credit.service.gov.uk/sign-in/password-reset?linkName=oldLink">Forgotten Password</a><br>
+            <label for="pass"><b>Password</b></label><br>
+            <input type="text" id="pass" name="pass" size="50" value=""><br>
+            <a href="https://www.universal-credit.service.gov.uk/sign-in/password-reset?linkName=oldLink"><small>Forgotten Password</small></a><br>
             <br>
-            <input type="submit" value="Submit">
-        </form> 
+            <input type="submit" value="Sign In" class="buttonStyle">
+        </form>
+        <br>
+        <br>
     </div>
-    <div class="divbox4">
+    <div class="ifYou">
         <h2>If you have never claimed Universal Credit</h2><br>
-        <br>
+        
         <p>You may be able to use the <a href="https://www.universal-credit.service.gov.uk/start">Universal Credit Online service</a> to:</p><br>
-        <br>
+        
         <ul>
             <li>create a Universal Credit account</li>
             <li>make a claim</li>
@@ -59,13 +76,28 @@
         <h2>If you used GOV.UK Verify to confirm your identity</h2>
         <br>
         <p>You can no longer sign in to your account with GOV.UK Verify.</p>
-        <br>
+        
         <p>You will need to use the username and password you created when you set up your Universal Credit account.</p>
-        <br>
+       
         <p>If you have forgotten your sign in details we can send a reminder to your registered email address. <a href="https://www.universal-credit.service.gov.uk/contact">Contact us</a> if you do not have access to this address</p>
+        <br>
+        <br>
+        <br>
     </div>
-    <div class="divbox5">
-        Footer Section
+    <div class="combinedFooter">
+        <div class="footerLinks">
+        <p>
+            <a href="https://www.universal-credit.service.gov.uk/contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.universal-credit.service.gov.uk/privacypolicy">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.universal-credit.service.gov.uk/cookiepolicy">Cookies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+            <a href="https://www.universal-credit.service.gov.uk/accessibility-statement">Accessibility</a>
+        </p>
+        <p><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"><img src="./images/open-government-licence.a3af4682908e608fdee1.png" alt="OGL Logo"></a>&nbsp;All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except where otherwise stated</p>
+        </div>
+        <div class="crownCrest">
+            <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"> <img src="./images/govuk-crest.403d21ad3e77f2fc321f (1).png" alt="Crown Copyright">
+            </a>
+        </div>
     </div>
 </body>
 </html>

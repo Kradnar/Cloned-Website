@@ -3,11 +3,13 @@
 /* ID Setups */
 
 #topBar {
+    /* border-color: yellow;
+    border-width: 5px;
+    border-style: dotted; */
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
     box-sizing: border-box;
-    height: 35px;
+    padding: 0px 100px 0px; /* top, right+left, bottom*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,36 +28,95 @@
     font-weight: bold;
 }
 
+/* #uname {
+    size: 50px
+}
+
+#pass {
+    size: 50px
+} */
+
 /* Class Setups */
 
-.divbox1{
-    border-color: red;
-    border-width: 5px;
-    border-style: dotted;
+
+.blueBar{
+    /* border-color: blue; */
+    /* border-width: 5px;
+    border-style: dotted; */
+    box-sizing: border-box;
+    background-color: rgb(11, 95, 163);
+    background-clip: content-box;
+    padding: 0px 100px 0px; /* top, right+left, bottom*/
+    font-size: x-small;
 }
 
-.divbox2{
-    border-color: blue;
-    border-width: 5px;
-    border-style: dotted;
+.betaBox{
+    /* border-color: red; */
+    /* border-width: 5px;
+    border-style: dotted; */
+    box-sizing: border-box;
+    padding: 0px 100px 0px; /* top, right+left, bottom*/
 }
 
-.divbox3{
-    border-color: orange;
-    border-width: 5px;
-    border-style: dotted;
+.betaHighlight {
+    background-color: rgb(11, 95, 163);
+    color: white;
 }
 
-.divbox4{
-    border-color: purple;
+.signIn{
+    /* border-color: blue;
     border-width: 5px;
-    border-style: dotted;
+    border-style: dotted; */
+    box-sizing: border-box;
+    padding: 0px 100px 0px; /* top, right+left, bottom*/
 }
 
-.divbox5{
-    border-color: green;
+.formBox{
+    /* border-color: orange;
     border-width: 5px;
-    border-style: dotted;
+    border-style: dotted; */
+    font-size: 22px;
+    box-sizing: border-box;
+    padding: 0px 100px 0px; /* top, right+left, bottom*/
+}
+
+.ifYou{
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: dotted; */
+    box-sizing: border-box;
+    padding: 0px 100px 0px; /* top, right+left, bottom*/
+}
+
+.combinedFooter{
+    /* border-color: green;
+    border-width: 5px;
+    border-style: dotted; */
+    box-sizing: border-box;
+    padding: 200px 100px 50px; /* top, right+left, bottom*/
+    background-color: rgb(222, 224, 226);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerLinks {
+    /* border-color: red;
+    border-width: 5px;
+    border-style: dotted; */
+    box-sizing: border-box;
+    border-right: -100px;
+}
+
+.crownCrest{
+    /* border-color: blue; */
+    border-width: 5px;
+    /* border-style: dotted; */
+}
+
+
+
+.noUnderline {
+    text-decoration: none;
 }
 
 .stayWhiteLink:visited {
@@ -64,7 +125,23 @@
     text-decoration: none;
 }
 
+.buttonStyle {
+    background-color: rgb(13, 130, 61);
+    color: white;
+    font-size: 16px;
+    padding: 10px 18px;
+    margin: 4px 2px
+}
+
+.buttonStyle:hover {
+    background-color: rgb(8, 105, 49); /* Hightlighted */
+    color: white;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
 }
