@@ -6,6 +6,7 @@
     /* border-color: yellow;
     border-width: 5px;
     border-style: dotted; */
+    color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -116,6 +117,12 @@
 
 
 .noUnderline {
+    text-decoration: none;
+}
+
+.stayWhiteLink:link {
+    color:white;
+    background-color: transparent;
     text-decoration: none;
 }
 
